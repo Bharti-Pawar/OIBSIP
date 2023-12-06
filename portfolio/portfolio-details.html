@@ -1,0 +1,468 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+
+<!-- Mirrored from template.wphix.com/diego-landing/diego/portfolio-details.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 07 Nov 2023 07:13:43 GMT -->
+<head>
+   <meta charset="utf-8">
+   <meta http-equiv="x-ua-compatible" content="ie=edge">
+   <title>Portfolio-details</title>
+   <meta name="description" content="">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+   <!-- Place favicon.ico in the root directory -->
+   <!-- <link rel="shortcut icon" type="image/x-icon" href="assets/img/logo/favicon.png"> -->
+
+   <!-- CSS here -->
+   <link rel="stylesheet" href="assets/css/bootstrap.css">
+   <link rel="stylesheet" href="assets/css/animate.css">
+   <link rel="stylesheet" href="assets/css/custom-animation.css">
+   <link rel="stylesheet" href="assets/css/swiper-bundle.css">
+   <link rel="stylesheet" href="assets/css/slick.css">
+   <link rel="stylesheet" href="assets/css/nice-select.css">
+   <link rel="stylesheet" href="assets/css/magnific-popup.css">
+   <link rel="stylesheet" href="assets/css/hover-reveal.css">
+   <link rel="stylesheet" href="assets/css/font-awesome-pro.css">
+   <link rel="stylesheet" href="assets/css/spacing.css">
+   <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body>
+   <!--[if lte IE 9]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+      <![endif]-->
+
+
+
+   <!-- pre loader area start -->
+   <div id="loading">
+      <div id="loading-center">
+         <div id="loading-center-absolute">
+            <!-- loading content here -->
+            <div class="preloader__content text-center">
+               <div class="preloader__top-text d-flex align-items-center justify-content-between">
+                  <p class="preloader__loading text-start">Loading</p>
+                  <h2 id="tp-loading-number" class="text-end"></h2>
+               </div>
+               <div id="tp-loading-bar" class="preloader__bar">
+                  <div id="tp-loading-line" class="preloader__bar-inner"></div>
+               </div>
+            </div>
+         </div>
+      </div>  
+   </div>
+   <!-- pre loader area end -->
+
+   <!-- back to top start -->
+   <div class="back-to-top-wrapper">
+      <button id="back_to_top" type="button" class="back-to-top-btn">
+         <svg width="12" height="7" viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M11 6L6 1L1 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+               stroke-linejoin="round" />
+         </svg>
+      </button>
+   </div>
+   <!-- back to top end -->
+   <header>
+      <!-- header area start -->
+      <div class="tp-header-4__area tp-header-4__white-color tp-header-transparent tp-header-4__mob-ptb tp-header-4__plr header">
+         <div class="container-fluid">
+            <div class="row align-items-center">
+               <div class="col-xl-7 d-none d-xl-block">
+                  <div class="tp-header-4__menu text-center">
+                     <nav>
+                        <ul>
+                           <li><a href="about-me.html">About Me</a></li>
+                           <li><a href="portfolio-details.html">Projects</a></li>
+                        </ul>
+                     </nav>
+                     <div class="offcanvas-menu-style d-none">
+                        <nav class="tp-main-menu-content">
+                           <ul>
+                              <li><a href="about-me.html">About Me</a></li>
+                              <li><a href="portfolio-details.html">Projects</a></li>
+                           </ul>
+                        </nav>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-xl-3 col-lg-6 col-md-6 col-6">
+                  <div class="tp-header-3__right-action d-flex align-items-center justify-content-end">
+                     <div class="tp-theme-toggle-single">
+                        <label class="tp-theme-toggle-main themepure-theme-toggle">
+                           <span class="dark">
+                              <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                 <path
+                                    d="M14 7.63063C13.8774 8.95738 13.3795 10.2218 12.5645 11.2759C11.7495 12.33 10.6512 13.1301 9.39801 13.5828C8.14485 14.0354 6.78869 14.1218 5.48822 13.8319C4.18775 13.5419 2.99676 12.8875 2.05461 11.9454C1.11246 11.0032 0.458115 9.81225 0.168141 8.51178C-0.121832 7.21131 -0.0354396 5.85515 0.41721 4.60199C0.86986 3.34883 1.67005 2.2505 2.72413 1.43552C3.77822 0.620536 5.04262 0.122609 6.36937 0C5.5926 1.05088 5.21881 2.34566 5.31599 3.64884C5.41317 4.95202 5.97487 6.17704 6.89892 7.10109C7.82296 8.02513 9.04798 8.58683 10.3512 8.68401C11.6543 8.78119 12.9491 8.4074 14 7.63063Z"
+                                    fill="white" />
+                              </svg>
+                           </span>
+                           <input type="checkbox" class="themepure-theme-toggle-input">
+                           <span class="light">
+                              <svg width="21" height="20" viewBox="0 0 21 20" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                 <path
+                                    d="M10.0581 14.2166C12.3522 14.2166 14.212 12.3569 14.212 10.0628C14.212 7.7687 12.3522 5.90897 10.0581 5.90897C7.76403 5.90897 5.9043 7.7687 5.9043 10.0628C5.9043 12.3569 7.76403 14.2166 10.0581 14.2166Z"
+                                    fill="#FFC05A" />
+                                 <path d="M10 1V2.63636" stroke="#FFC05A" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                 <path d="M10 17.3637V19.0001" stroke="#FFC05A" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                 <path d="M3.63477 3.63455L4.79658 4.79637" stroke="#FFC05A" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                                 <path d="M15.2031 15.2036L16.3649 16.3654" stroke="#FFC05A" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                                 <path d="M1 10.0001H2.63636" stroke="#FFC05A" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                 <path d="M17.3652 10.0001H19.0016" stroke="#FFC05A" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                                 <path d="M3.63477 16.3654L4.79658 15.2036" stroke="#FFC05A" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                                 <path d="M15.2031 4.79637L16.3649 3.63455" stroke="#FFC05A" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                              </svg>
+                           </span>
+                        </label>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- header area end -->
+   </header>
+
+   <header>
+      <!-- header area start -->
+      <div class="tp-header-4__area tp-header-transparent tp-header-4__mob-ptb tp-header-4__plr tp-int-menu tp-header-sticky-cloned">
+         <div class="container-fluid">
+            <div class="row align-items-center">
+               <div class="col-xl-7 d-none d-xl-block">
+                  <div class="tp-header-4__menu text-center">
+                     <nav>
+                        <ul>
+                           <li><a href="about-me.html">About Me</a></li>
+                           <li><a href="portfolio-details.html">Projects</a></li>
+                        </ul>
+                     </nav>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-xl-3 col-lg-6 col-md-6 col-6">
+                  <div class="tp-header-3__right-action d-flex align-items-center justify-content-end">
+                     <div class="tp-theme-toggle-single">
+                        <label class="tp-theme-toggle-main themepure-theme-toggle">
+                           <span class="dark">
+                              <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                 <path
+                                    d="M14 7.63063C13.8774 8.95738 13.3795 10.2218 12.5645 11.2759C11.7495 12.33 10.6512 13.1301 9.39801 13.5828C8.14485 14.0354 6.78869 14.1218 5.48822 13.8319C4.18775 13.5419 2.99676 12.8875 2.05461 11.9454C1.11246 11.0032 0.458115 9.81225 0.168141 8.51178C-0.121832 7.21131 -0.0354396 5.85515 0.41721 4.60199C0.86986 3.34883 1.67005 2.2505 2.72413 1.43552C3.77822 0.620536 5.04262 0.122609 6.36937 0C5.5926 1.05088 5.21881 2.34566 5.31599 3.64884C5.41317 4.95202 5.97487 6.17704 6.89892 7.10109C7.82296 8.02513 9.04798 8.58683 10.3512 8.68401C11.6543 8.78119 12.9491 8.4074 14 7.63063Z"
+                                    fill="white" />
+                              </svg>
+                           </span>
+                           <input type="checkbox" class="themepure-theme-toggle-input">
+                           <span class="light">
+                              <svg width="21" height="20" viewBox="0 0 21 20" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                 <path
+                                    d="M10.0581 14.2166C12.3522 14.2166 14.212 12.3569 14.212 10.0628C14.212 7.7687 12.3522 5.90897 10.0581 5.90897C7.76403 5.90897 5.9043 7.7687 5.9043 10.0628C5.9043 12.3569 7.76403 14.2166 10.0581 14.2166Z"
+                                    fill="#FFC05A" />
+                                 <path d="M10 1V2.63636" stroke="#FFC05A" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                 <path d="M10 17.3637V19.0001" stroke="#FFC05A" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                 <path d="M3.63477 3.63455L4.79658 4.79637" stroke="#FFC05A" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                                 <path d="M15.2031 15.2036L16.3649 16.3654" stroke="#FFC05A" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                                 <path d="M1 10.0001H2.63636" stroke="#FFC05A" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                 <path d="M17.3652 10.0001H19.0016" stroke="#FFC05A" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                                 <path d="M3.63477 16.3654L4.79658 15.2036" stroke="#FFC05A" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                                 <path d="M15.2031 4.79637L16.3649 3.63455" stroke="#FFC05A" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                              </svg>
+                           </span>
+                        </label>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- header area start -->
+   </header>
+
+   
+<div id="smooth-wrapper">
+   <div id="smooth-content">
+
+   <main>
+
+      <!-- porfolio details area start -->
+      <div class="porfolio-details__area porfolio-details__color-customize p-relative smooth">
+         <a href="#porfolio-details">
+            <div class="tp-hero-3__scrool-down z-index-5">
+                <span class="text">Scroll</span>
+                <span>
+                   <svg width="14" height="93" viewBox="0 0 14 93" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M14 85.8995C10.1308 85.8995 6.9999 88.9319 6.9999 92.6793" stroke="white" stroke-width="2" stroke-miterlimit="10"/>
+                      <path d="M7 92.6793C7 88.9319 3.86911 85.8995 -0.000102413 85.8995" stroke="white" stroke-width="2" stroke-miterlimit="10"/>
+                      <path d="M7 0L7 90" stroke="white" stroke-width="2" stroke-miterlimit="10"/>
+                   </svg>
+                </span>
+             </div>
+          </a>
+         <div class="porfolio-details__hero-img">
+            <img data-speed="1.1" src="assets/img/portfolio/B.webp" alt="">
+         </div>
+      </div>
+
+      <div id="porfolio-details" class="porfolio-details__info-wrap black-bg-3 pt-120 pb-100">
+         <div class="container">
+            <div class="row">
+               <div class="col-xl-5 col-lg-4">
+                  <div class="porfolio-details__left-info">
+                        <h1>Projects:</h1>
+                        <p>
+                           <ul>
+                              <li>Apti Trainer Educational App</li>
+                              <li>Online Food Ordering System</li>
+                              <li>Traffic Forecasting using GNN and LSTM</li>
+                              <li>Real time Student Survey Analysis</li>
+                              <li>Tourism Management System</li>
+                              <li>Personality Prediction through CV Analysis</li>
+                           </ul>
+                        </p>
+                  </div>
+               </div>
+               <div class="col-xl-7 col-lg-8">
+                  <div class="porfolio-details__right-info">
+                     <div class="porfolio-details__right-title-box">
+                        <div>
+                           <h1>1. Apti Trainer Educational App</h1>
+                           <p>It is specially designed to assist undergraduate students in excellence their aptitude
+                              skills and to address the issue of elimination of students during crucial initial campus
+                              rounds.It includes mock test topic wise notes and practice questions
+                              <br><b>Technology used:Android Studio,XML,Java,SQLite</b></p>
+                        </div>
+                        <!--  -->
+                        <div>
+                           <h1>2. Online Food Ordering System</h1>
+                           <p>Developed an interactive web based application to efficiently order food and
+                              beverages from the restaurants online.It include home,about us,menu,payment
+                              and review section init.Objective to designed this website are fast online food
+                              delivery and improve food business.
+                              <br><b>Technology used:Html,CSS,Javascript,MYSQL,XAMPP</b></p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- porfolio details area end -->
+
+      <div class="porfolio-details__overview-wrapper black-bg-3">
+         <div class="container">
+            <div class="row">
+               <div class="porfolio-details__thumb-box tp-project-3__area">
+                  <div class="row">
+                     <div class="col-xl-12">
+                        <div class="tp-portfolio-item-wrapper-3">
+                           <div class="tp-portfolio-item-3 portfolio-panel pb-80 tp-hover-reveal-text">
+                              <a href="#">
+                                 <img src="assets/img/portfolio/a1.png" alt="">
+                                 <span></span>
+                              </a>
+                           </div>
+                           <!--  -->
+                           <div class="tp-portfolio-item-3 portfolio-panel pb-80 tp-hover-reveal-text">
+                              <a href="#">
+                                 <img src="assets/img/portfolio/a2.png" alt="">
+                                 <span></span>
+                              </a>
+                           </div>
+                           <!--  -->
+                           <div class="tp-portfolio-item-3 portfolio-panel pb-80 tp-hover-reveal-text">
+                              <a href="#">
+                                 <img src="assets/img/portfolio/a3.png" alt="">
+                                 <span></span>
+                              </a>
+                           </div>
+                           <!--  -->
+                           <div class="tp-portfolio-item-3 portfolio-panel pb-80 tp-hover-reveal-text">
+                              <a href="#">
+                                 <img src="assets/img/portfolio/a4.jfif" alt="">
+                                 <span></span>
+                              </a>
+                           </div>
+                           <!--  -->
+                           <div class="tp-portfolio-item-3 portfolio-panel pb-80 tp-hover-reveal-text">
+                              <a href="#">
+                                 <img src="assets/img/portfolio/a5.jfif" alt="">
+                                 <span></span>
+                              </a>
+                           </div>
+                           <!--  -->
+                           <div class="tp-portfolio-item-3 portfolio-panel pb-80 tp-hover-reveal-text">
+                              <a href="#">
+                                 <img src="assets/img/portfolio/a6.jfif" alt="">
+                                 <span></span>
+                              </a>
+                           </div>
+                           <!--  -->
+                           <div class="tp-portfolio-item-3 portfolio-panel pb-80 tp-hover-reveal-text">
+                              <a href="#">
+                                 <img src="assets/img/portfolio/a7.jfif" alt="">
+                                 <span></span>
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+
+   </main>
+
+   
+   <footer>
+      <div class="tp-footer-bg tp-footer__customize  black-bg-3 p-relative fix z-index-1" data-background="assets/img/footer/overly-bg-2.png">
+         <div class="tp-footer-circle-1">
+            <span></span>
+         </div>
+         <div class="tp-footer-circle-2">
+            <span></span>
+         </div>
+         <div class="tp-footer-circle-3" data-speed=".7">
+            <span></span>
+         </div>
+         <!-- footer area start -->
+         <div class="tp-footer-area tp-footer-inner__customize pt-120 pb-80">
+            <div class="container">
+               <div class="row gx-50">
+                  <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                     <a href="#">
+                        <div class="tp-footer-social-item d-flex align-items-center justify-content-between">
+                           <div class="tp-footer-social-text z-index-1">
+                              <span class="child-1">Github</span>
+                              <span class="child-2">https://github.com/Bharti-Pawar</span>
+                           </div>
+                           <div class="tp-footer-social-icon z-index-1">
+                              <span>
+                                 <svg width="19" height="12" viewBox="0 0 19 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 6H6.83333C8.25 6 9.33333 7.08333 9.33333 8.5C9.33333 9.91667 8.25 11 6.83333 11H1.83333C1.33333 11 1 10.6667 1 10.1667V1.83333C1 1.33333 1.33333 1 1.83333 1H6C7.41667 1 8.5 2.08333 8.5 3.5C8.5 4.91667 7.41667 6 6 6H1Z" stroke="currentcolor" stroke-width="1.5" stroke-miterlimit="10"/>
+                                    <path d="M10.9997 7.66634H17.6664C17.6664 5.83301 16.1664 4.33301 14.333 4.33301C12.4997 4.33301 10.9997 5.83301 10.9997 7.66634ZM10.9997 7.66634C10.9997 9.49967 12.4997 10.9997 14.333 10.9997H15.7497" stroke="currentcolor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M15.5831 2.25H13.0831" stroke="currentcolor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                 </svg>
+                              </span>
+                           </div>
+                        </div>
+                     </a>
+                  </div>
+                  <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                     <a href="#">
+                        <div class="tp-footer-social-item d-flex align-items-center justify-content-between">
+                           <div class="tp-footer-social-text z-index-1">
+                              <span class="child-1">Linkdin:</span>
+                              <span class="child-2">https://www.linkedin.com/in/bharti-pawar-0a2465296</span>
+                           </div>
+                           <div class="tp-footer-social-icon z-index-1">
+                              <span>
+                                 <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M2.07295 12.9993C4.28172 16.825 9.17363 18.1358 12.9993 15.927C14.5588 15.0267 15.7003 13.6806 16.356 12.1425C17.3088 9.90737 17.2355 7.26695 15.927 5.00067C14.6186 2.73439 12.3686 1.35064 9.95647 1.05826C8.29667 0.857067 6.56009 1.17262 5.00067 2.07295C1.17497 4.28172 -0.135817 9.17363 2.07295 12.9993Z" stroke="currentcolor" stroke-width="1.5"/>
+                                    <path d="M12.9595 15.8578C12.9595 15.8578 12.2084 10.5858 10.6004 7.80063C8.99241 5.01548 5.04119 2.14298 5.04119 2.14298M5.46266 16.0532C6.64777 12.478 12.5618 8.51493 16.8898 9.46439M12.5309 1.96875C11.3408 5.505 5.54035 9.41017 1.23254 8.56176" stroke="currentcolor" stroke-width="1.5" stroke-linecap="round"/>
+                                 </svg>  
+                              </span>
+                           </div>
+                        </div>
+                     </a>
+                  </div>
+                  <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                     <a href="#">
+                        <div class="tp-footer-social-item d-flex align-items-center justify-content-between">
+                           <div class="tp-footer-social-text z-index-1">
+                              <span class="child-1">Email-Id</span>
+                              <span class="child-2">bhartipawar277@gmail.com</span>
+                           </div>
+                           <div class="tp-footer-social-icon z-index-1">
+                              <span>
+                                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M11.5 1H4.5C2.567 1 1 2.567 1 4.5V11.5C1 13.433 2.567 15 4.5 15H11.5C13.433 15 15 13.433 15 11.5V4.5C15 2.567 13.433 1 11.5 1Z" stroke="currentcolor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M10.8002 7.55921C10.8866 8.14178 10.7871 8.73676 10.5158 9.25952C10.2446 9.78228 9.81539 10.2062 9.28932 10.471C8.76326 10.7358 8.1671 10.8279 7.58564 10.7344C7.00417 10.6408 6.46702 10.3663 6.05057 9.94982C5.63413 9.53338 5.3596 8.99622 5.26603 8.41476C5.17247 7.8333 5.26463 7.23714 5.52941 6.71107C5.7942 6.18501 6.21812 5.75583 6.74087 5.48458C7.26363 5.21333 7.85861 5.11382 8.44119 5.20021C9.03543 5.28833 9.58558 5.56524 10.0104 5.99003C10.4352 6.41482 10.7121 6.96496 10.8002 7.55921Z" stroke="currentcolor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M11.8499 4.15137H11.8599" stroke="currentcolor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                 </svg>
+                              </span>
+                           </div>
+                        </div>
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- footer area end -->
+
+         <!-- copyright area start -->
+         <div class="tp-copyright-area pb-20">
+            <div class="container">
+               <div class="row">
+                  <div class="col-xl-6 col-md-6">
+                     <div class="tp-copyright-content-left text-center text-md-start">
+                        <p>©2023 Bharti Dinkar Pawar, All Rights Reserved • <span>Credits</span></p>                          
+                     </div>
+                  </div> 
+                  <div class="col-xl-6 col-md-6">
+                     <div class="tp-copyright-content-right text-center text-md-end">
+                        <span>2023 Portfolio</span>                       
+                     </div>
+                  </div> 
+               </div>
+            </div>
+         </div>
+         <!-- copyright area end -->
+      </div>
+   </footer>
+
+   </div>
+</div>
+
+   
+   <!-- JS here -->
+   <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="assets/js/vendor/jquery.js"></script>
+   <script src="assets/js/bootstrap-bundle.js"></script>
+   <script src="assets/js/gsap.js"></script>
+   <script src="assets/js/gsap-scroll-smoother.js"></script>
+   <script src="assets/js/gsap-scroll-trigger.js"></script>
+   <script src="assets/js/gsap-scroll-to-plugin.js"></script>
+   <script src="assets/js/gsap-split-text.js"></script>
+   
+   <script src="assets/js/swiper-bundle.js"></script>
+   <script src="assets/js/slick.js"></script>
+   <script src="assets/js/wow.js"></script>
+   <script src="assets/js/pagepiling.js"></script>
+   <script src="assets/js/headroom.min.js"></script>
+   <script src="assets/js/magnific-popup.js"></script>
+   <script src="assets/js/nice-select.js"></script>
+   <script src="assets/js/purecounter.js"></script>
+   <script src="assets/js/hammer.js"></script>
+   <script src="assets/js/matter.js"></script>
+   <script src="assets/js/throwable.js"></script>
+   <script src="assets/js/isotope-pkgd.js"></script>
+   <script src="assets/js/imagesloaded-pkgd.js"></script>
+   <script src="assets/js/ajax-form.js"></script>
+
+   <script src="assets/js/theme-settings.js"></script>
+   <script src="assets/js/animated-headline.js"></script>
+   <script src="assets/js/main.js"></script>
+
+</body>
+
+
+<!-- Mirrored from template.wphix.com/diego-landing/diego/portfolio-details.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 07 Nov 2023 07:13:46 GMT -->
+</html>
